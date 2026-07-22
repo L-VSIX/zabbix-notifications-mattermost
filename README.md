@@ -1,8 +1,13 @@
-# zabbix-notifications-mattermost
-
+# 🔔 Intégration des notifications Zabbix avec Mattermost
+> Objectif : router les alertes Zabbix vers un canal Mattermost dédié pour centraliser la remontée d'incidents, à la manière d'un vrai canal d'astreinte DSI.
+> 
 Intégration des notifications Zabbix vers un canal Mattermost via un webhook basé sur un **bot account**.
 
-Ce repository documente la configuration de bout en bout : déploiement Mattermost (Docker), création du bot, media type Zabbix, actions et pièges rencontrés en production sur le homelab RAID-A-PORTER.
+Ce repository documente la configuration de bout en bout : déploiement Mattermost (Docker), création du bot, media type Zabbix, actions et pièges rencontrés en production sur le homelab RAIDAPORTER&Co.
+
+## Pourquoi Mattermost plutôt qu'un canal e-mail
+
+Dans le scénario d'entreprise RAIDAPORTER&Co, Mattermost joue le rôle de l'outil de communication interne (équivalent Slack/Teams auto-hébergé). Faire remonter les alertes de supervision dans ce même outil reproduit un flux d'astreinte réaliste, plutôt que de multiplier les canaux de notification.
 
 ## Sommaire
 
