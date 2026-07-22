@@ -145,3 +145,12 @@ Une réponse JSON avec les informations du bot (`username`, `roles`, etc.) confi
 - Ne jamais committer `bot_token` en clair dans ce repository — utiliser un `.env` local ignoré par Git (`.gitignore`) ou un gestionnaire de secrets
 - Régénérer tout token exposé accidentellement (logs, capture d'écran, conversation) via **Bot Accounts > Create New Token**
 - Restreindre les permissions du bot au strict nécessaire (`post:all`, `post:channels`)
+
+## Repos liés
+
+- [`zabbix-dashboard-supervision`](https://github.com/L-VSIX/zabbix-dashboard-supervision)
+- `mattermost-canaux-communication`
+
+## Auteur
+
+**Lilian Vertueux** — [LinkedIn](https://www.linkedin.com/in/lilian-vertueux/)
