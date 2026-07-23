@@ -77,6 +77,9 @@ docker compose -f docker-compose.yml -f docker-compose.without-nginx.yml up -d -
 
 Validez ensuite dans **System Console > Environment > Web Server > Site URL** : le test doit passer.
 
+<img width="1878" height="1003" alt="mattermost-web" src="https://github.com/user-attachments/assets/c695df8a-80c7-472a-a24f-bca418a656d2" />
+
+
 ## 3. Création du bot account
 
 Dans Mattermost :
