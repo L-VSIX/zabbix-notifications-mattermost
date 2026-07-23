@@ -115,6 +115,8 @@ Configurez la même opération (`Send message to <cible> via Mattermost`) dans l
 
 **Comportement attendu :** Zabbix notifie individuellement chaque utilisateur du groupe ciblé disposant du média Mattermost actif dans son profil. Pour un message unique par événement dans le canal, n'activez le média Mattermost que sur un compte technique dédié plutôt que sur l'ensemble d'un groupe.
 
+<img width="1870" height="1004" alt="mattermost-zabbix" src="https://github.com/user-attachments/assets/6f84fd25-1c73-405e-8211-6249c42fb148" />
+
 ## 6. Vérification indépendante (curl)
 
 Pour isoler un problème entre Zabbix et Mattermost, testez toujours l'API en direct :
