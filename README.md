@@ -154,7 +154,7 @@ Une réponse JSON avec les informations du bot (`username`, `roles`, etc.) confi
 ## Repos liés
 
 - [`zabbix-dashboard-supervision`](https://github.com/L-VSIX/zabbix-dashboard-supervision)
-- `mattermost-canaux-communication`
+- [`mattermost-canaux-communication`](https://github.com/L-VSIX/mattermost-canaux-communication)
 
 ## Auteur
 
